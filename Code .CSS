@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+}
+
+
+header {
+    background: #d9534f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.image {
+    background-image: url("https://www.hotelgraziaallascannella.it/wp-content/uploads/2023/03/hotel_grazia_alla_scannella_hotel_a_ischia_slide_home_3.jpg");
+    padding: 20px;
+    position: relative;
+    background-size: max(1440px, 100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    height: 500px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #d9534f;
+}
+
+#featured {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    height: 500px;
+}
+
+.btnbtn-primary {
+    position: absolute;
+    left: 65%;
+    transform: translatex(-50%);
+    margin: 30px;
+    background-color: #d9534f;
+    background-size: 10px;
+    top: 600px;
+}
+
+.btn-btn-primary {
+    position: absolute;
+    left: 85%;
+    transform: translatey(+50%);
+    margin: 20px;
+    background-color: #d9534f;
+    top: 600px;
+}
+
+
+
+
+
+
+.featured-item {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 45%;
+
+}
+
+.featured-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#categories ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+#categories ul li {
+    background: #d9534f;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.menu-item {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu-item h3 {
+    font-size: 1.3em;
+    color: #d9534f;
+}
+
+.menu-item p {
+    font-size: 1em;
+    color: #555;
+    margin: 5px 0;
+}
+
+.price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+#contact {
+    text-align: center;
+    font-size: 1.1em;
+    color: #555;
+    height: 500px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
